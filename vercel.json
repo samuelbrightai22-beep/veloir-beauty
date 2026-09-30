@@ -1,0 +1,10 @@
+# Build configuration for Vercel
+# Next.js is auto-detected by Vercel; this file just locks in a few sensible defaults.
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "outputDirectory": ".next"
+}
